@@ -13,7 +13,7 @@ function __autoload($class) {
 $Connection = new MySql();
 
 // Conecta ao banco de dados
-//$Connection->conecta();
+$Connection->conecta();
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,5 +33,5 @@ $Connection = new MySql();
 </html>
 <?php
 // Desconecta do Banco de dados
-//$Connection->desconecta();
+$Connection->desconecta();
 ?>
