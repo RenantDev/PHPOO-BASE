@@ -5,8 +5,9 @@
  */
 
 // Busca todas as classes que estão em uso no sistema
-function __autoload($class) {
-    require "class/" . $class .".php";
+function __autoload($class)
+{
+    require 'class/'.$class.'.php';
 }
 
 // Inicia nova class
@@ -27,7 +28,7 @@ $Connection->conecta();
     </head>
     <body>
         <?php
-        echo "PHP OO, bem vindo!";
+        echo 'PHP OO, bem vindo!';
         ?>
     </body>
 </html>
